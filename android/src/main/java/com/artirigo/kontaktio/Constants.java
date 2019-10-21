@@ -1,8 +1,8 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 public class Constants {
     public static final String EXCEPTION = "JAVA_EXCEPTION";
     public static final String ERROR = "REACT_NATIVE_KONTAKTIO_ERROR";
 
-    public static final String TAG = "com.artirigo.kontaktio";
+    public static final String TAG = "com.mingmingtong.kontaktio";
 }

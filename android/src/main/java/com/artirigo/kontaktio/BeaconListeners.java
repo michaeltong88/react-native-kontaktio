@@ -1,4 +1,4 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 import android.util.Log;
 
@@ -27,7 +27,7 @@ import com.kontakt.sdk.android.common.profile.ISecureProfile;
 
 import java.util.List;
 
-import static com.artirigo.kontaktio.ReactUtils.sendEvent;
+import static com.mingmingtong.kontaktio.ReactUtils.sendEvent;
 
 /**
  * Add Listeners to a ProximityManager

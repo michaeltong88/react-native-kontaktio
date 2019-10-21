@@ -15,19 +15,19 @@
     "bluetooth"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Artirigo/react-native-kontaktio",
+  "homepage": "https://github.com/mingmingtong/react-native-kontaktio",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Artirigo/react-native-kontaktio.git"
+    "url": "git+https://github.com/mingmingtong/react-native-kontaktio.git"
   },
   "bugs": {
-    "url": "https://github.com/Artirigo/react-native-kontaktio/issues"
+    "url": "https://github.com/mingmingtong/react-native-kontaktio/issues"
   },
-  "author": "André Kovac",
+  "author": "MingMing Tong",
   "maintainers": [
     {
-      "email": "me@andrekovac.com",
-      "name": "Andruschenko"
+      "email": "mingmingtong8@gmail.com",
+      "name": "MingMing Tong"
     }
   ],
   "scripts": {

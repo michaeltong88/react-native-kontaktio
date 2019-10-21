@@ -287,7 +287,7 @@ RCT_EXPORT_METHOD(init:(NSString *)apiKey
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"init", @"Could not init beacon manager", error);
     }
 }
@@ -311,7 +311,7 @@ RCT_EXPORT_METHOD(configure:(NSDictionary *)dict
 
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"configure", @"Could not configure beacon manager", error);
     }
 }
@@ -330,7 +330,7 @@ RCT_EXPORT_METHOD(startEddystoneDiscovery:(NSDictionary *)dict
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"startEddystoneDiscovery", @"Could not start beacon discovery", error);
     }
 }
@@ -344,7 +344,7 @@ RCT_EXPORT_METHOD(stopEddystoneDiscoveryInRegion:(NSDictionary *)dict
         [self.eddystoneManager stopEddystoneDiscoveryInRegion:[self convertDictToEddystoneRegion:dict]];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopEddystoneDiscoveryInRegion", @"Could not stopRangingBeaconsInRegion", error);
     }
 }
@@ -357,7 +357,7 @@ RCT_REMAP_METHOD(stopEddystoneDiscoveryInAllRegions,
         [self.eddystoneManager stopEddystoneDiscoveryInAllRegions];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopRangingBeaconsInAllRegions", @"Could not stopRangingBeaconsInAllRegions", error);
     }
 }
@@ -377,7 +377,7 @@ RCT_EXPORT_METHOD(startDiscovery:(NSDictionary *)dict
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"startDiscovery", @"Could not start beacon discovery", error);
     }
 }
@@ -391,7 +391,7 @@ RCT_REMAP_METHOD(stopDiscovery,
         [self.devicesManager stopDevicesDiscovery];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopDiscovery", @"Could not stop beacon discovery", error);
     }
 }
@@ -408,7 +408,7 @@ RCT_REMAP_METHOD(restartDiscovery,
         }];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"restartDiscovery", @"Could not restart beacon discovery", error);
     }
 }
@@ -422,7 +422,7 @@ RCT_REMAP_METHOD(isDiscovering,
         BOOL isDiscovering = [self.devicesManager isDiscovering];
         resolve(@(isDiscovering));
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"isDiscovering", @"Could not check discovery status", error);
     }
 }
@@ -452,7 +452,7 @@ RCT_EXPORT_METHOD(startRangingBeaconsInRegion:(NSDictionary *)dict
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"startRangingBeaconsInRegion", @"Could not startRangingBeaconsInRegion", error);
     }
 }
@@ -465,7 +465,7 @@ RCT_EXPORT_METHOD(stopRangingBeaconsInRegion:(NSDictionary *)dict
         [self.beaconManager stopRangingBeaconsInRegion:[self convertDictToBeaconRegion:dict]];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopRangingBeaconsInRegion", @"Could not stopRangingBeaconsInRegion", error);
     }
 }
@@ -478,7 +478,7 @@ RCT_REMAP_METHOD(stopRangingBeaconsInAllRegions,
         [self.beaconManager stopRangingBeaconsInAllRegions];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopRangingBeaconsInAllRegions", @"Could not stopRangingBeaconsInAllRegions", error);
     }
 }
@@ -503,7 +503,7 @@ RCT_REMAP_METHOD(getRangedRegions,
         }
         resolve(regionArray);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"getRangedRegions", @"Could not getRangedRegions", error);
     }
 }
@@ -520,7 +520,7 @@ RCT_EXPORT_METHOD(startMonitoringForRegion:(NSDictionary *)dict
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"startMonitoringForRegion", @"Could not startMonitoringForRegion", error);
     }
 }
@@ -533,7 +533,7 @@ RCT_EXPORT_METHOD(stopMonitoringForRegion:(NSDictionary *)dict
         [self.beaconManager stopMonitoringForRegion:[self convertDictToBeaconRegion:dict]];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopMonitoringForRegion", @"Could not stopMonitoringForRegion", error);
     }
 }
@@ -546,7 +546,7 @@ RCT_REMAP_METHOD(stopMonitoringForAllRegions,
         [self.beaconManager stopMonitoringForAllRegions];
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"stopMonitoringForAllRegions", @"Could not stopMonitoringForAllRegions", error);
     }
 }
@@ -571,7 +571,7 @@ RCT_REMAP_METHOD(getMonitoredRegions,
         }
         resolve(regionArray);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"getMonitoredRegions", @"Could not getMonitoredRegions", error);
     }
 }
@@ -584,7 +584,7 @@ RCT_REMAP_METHOD(getAuthorizationStatus,
         CLAuthorizationStatus status = [KTKBeaconManager locationAuthorizationStatus];
         resolve([self nameForAuthorizationStatus:status]);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"getAuthorizationStatus", @"Could not get the current authorization status", error);
     }
 }
@@ -601,7 +601,7 @@ RCT_REMAP_METHOD(requestAlwaysAuthorization,
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"requestAlwaysAuthorization", @"Could not requestAlwaysAuthorization", error);
     }
 }
@@ -618,7 +618,7 @@ RCT_REMAP_METHOD(requestWhenInUseAuthorization,
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"requestWhenInUseAuthorization", @"Could not requestWhenInUseAuthorization", error);
     }
 }
@@ -634,7 +634,7 @@ RCT_EXPORT_METHOD(requestStateForRegion:(NSDictionary *)dict
         }
         resolve(nil);
     } @catch (NSException *exception) {
-        NSError *error = [NSError errorWithDomain:@"com.artirigo.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
+        NSError *error = [NSError errorWithDomain:@"com.mingmingtong.kontakt" code:0 userInfo:[self errorInfoTextForException:exception]];
         reject(@"requestStateForRegion", @"Could not requestStateForRegion", error);
     }
 }

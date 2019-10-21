@@ -1,4 +1,4 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactMethod;

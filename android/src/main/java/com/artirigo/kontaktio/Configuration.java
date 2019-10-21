@@ -1,4 +1,4 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReadableMap;
@@ -84,7 +84,7 @@ class Configuration {
 
             // After setting ScanPeriod and ActivityCheckConfiguration: Check for faulty configuration
             // Active Scan Period must be bigger than checkPeriod for it to work as documented in
-            // https://github.com/Artirigo/react-native-kontaktio/issues/11
+            // https://github.com/mingmingtong/react-native-kontaktio/issues/11
             // ScanPeriod.create causes App crash if not in correct range
             if (scanPeriod.getActivePeriod() < activityCheckConfiguration.getCheckPeriod()) {
                 throw new Exception("scanPeriod.activePeriod (" + scanPeriod.getActivePeriod() +

@@ -1,4 +1,4 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
@@ -20,7 +20,7 @@ import java.util.UUID;
 
 import android.util.Log;
 
-import static com.artirigo.kontaktio.ReactUtils.sendEvent;
+import static com.mingmingtong.kontaktio.ReactUtils.sendEvent;
 
 /**
  * Kontakt.io Documentation:

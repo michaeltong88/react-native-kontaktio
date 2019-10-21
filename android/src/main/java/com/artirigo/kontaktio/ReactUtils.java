@@ -1,4 +1,4 @@
-package com.artirigo.kontaktio;
+package com.mingmingtong.kontaktio;
 
 import android.support.annotation.Nullable;
 

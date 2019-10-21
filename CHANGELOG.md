@@ -118,16 +118,16 @@ _The format is based on [Keep a Changelog](http://keepachangelog.com/) and this 
 - Several bug fixes
 
 
-[unreleased]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.6.2...master
-[v2.7.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.6.2...v2.7.0
-[v2.6.2]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.6.1...v2.6.2
-[v2.6.1]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.6.0...v2.6.1
-[v2.6.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.5.4...v2.6.0
-[v2.5.4]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.5.0...v2.5.4
-[v2.5.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.4.0...v2.5.0
-[v2.4.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.3.0...v2.4.0
-[v2.3.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.2.0...v2.3.0
-[v2.2.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.1.0...v2.2.0
-[v2.1.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.0.4...v2.1.0
-[v2.0.4]: https://github.com/Artirigo/react-native-kontaktio/compare/v2.0.3...v2.0.4
-[v2.0.0]: https://github.com/Artirigo/react-native-kontaktio/compare/v1.2.0...v2.0.0
+[unreleased]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.6.2...master
+[v2.7.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.6.2...v2.7.0
+[v2.6.2]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.6.1...v2.6.2
+[v2.6.1]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.6.0...v2.6.1
+[v2.6.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.5.4...v2.6.0
+[v2.5.4]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.5.0...v2.5.4
+[v2.5.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.4.0...v2.5.0
+[v2.4.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.3.0...v2.4.0
+[v2.3.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.2.0...v2.3.0
+[v2.2.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.1.0...v2.2.0
+[v2.1.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.0.4...v2.1.0
+[v2.0.4]: https://github.com/mingmingtong/react-native-kontaktio/compare/v2.0.3...v2.0.4
+[v2.0.0]: https://github.com/mingmingtong/react-native-kontaktio/compare/v1.2.0...v2.0.0

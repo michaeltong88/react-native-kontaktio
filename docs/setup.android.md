@@ -42,7 +42,7 @@ When installing both, Android and iOS, steps *1* and *2* only have to be run onc
 2. In `android/app/src/main/java/.../MainApplication.java` import `KontaktPackage` and add it to the List:
 
 	```java
-	import com.artirigo.kontaktio.KontaktPackage;
+	import com.mingmingtong.kontaktio.KontaktPackage;
 	...
 	return Arrays.<ReactPackage>asList(
 		new MainReactPackage(),
