@@ -1,5 +1,5 @@
 require 'json'
-package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
+package = JSON.parse(File.read(File.join(__dir__, '../package.json')))
 
 Pod::Spec.new do |s|
   s.name          = "KontaktBeacons"
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.author        = { "MingMing Tong" => "mingmingtong8@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source         = { :git => "https://github.com/mingmingtong/react-native-kontaktio.git", :tag => "master" }
-  s.source_files  = "ios/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.static_framework = true
-  s.vendored_frameworks = 'ios/KontaktSDK.framework'
+  s.vendored_frameworks = 'KontaktSDK.framework'
   s.requires_arc  = true
 
   s.dependency "React"
